@@ -16,7 +16,7 @@ class Config:
     )
     JWT_COOKIE_SECURE = False
     # JWT_TOKEN_LOCATION = ['cookie','headers']
-    JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)
+    JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=1)
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)
 
 

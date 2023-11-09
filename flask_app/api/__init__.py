@@ -19,5 +19,9 @@ def create_app(config_name="default"):
 
     from .v1 import v1
 
-    app.register_blueprint(v1)
+    app.register_blueprint(v1, url_prefix="/v1")
+
+    from .auth import auth
+
+    app.register_blueprint(auth, url_prefix="/auth")
     return app
