@@ -17,3 +17,10 @@ def internal_server(e):
     response = jsonify({"error": "Internal Server"})
     response.status_code = 500
     return response
+
+
+@v1.app_errorhandler(405)
+def method_not_allowed(e):
+    response = jsonify({"error": "Method not allowed"})
+    response.status_code = 405
+    return response
