@@ -1,9 +1,0 @@
-export INFLUX_ORG="ant"
-
-export INFLUX_TOKEN="WWHL9kPJJEPg_CINgSo5AYDkTl2u_Rrq0ChEM_TG6CAWYvBme16L14R1BsFF7O-MHIWV3dn7XxVqjxW4RGcuIQ=="
-
-export INFLUX_URL='http://127.0.0.1:8086'
-
-export INFLUX_BUCKET='smarthome'
-
-export INFLUX_MEASUREMENT='measurement1'
